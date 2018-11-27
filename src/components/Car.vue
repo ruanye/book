@@ -6,7 +6,7 @@
 </template>
 <script>
 import MHeader from '../base/MHeader.vue'
-import {mapState} from 'Vuex'
+import {mapState} from 'vuex'
 export default{
   data () {
     return {msg: 'home'}

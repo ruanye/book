@@ -63,6 +63,7 @@ export default{
   	MHeader
   }
 }
+
 </script>
 <style scoped lang="less">
 .detail{

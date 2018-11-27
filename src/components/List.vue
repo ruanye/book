@@ -64,7 +64,7 @@ export default{
         let {hasmore,books} =res.data;
         this.hasmore= hasmore;
         this.Books= [...this.Books,...books];
-        this.offset =this.Books.length // 维护便宜量的便宜，就是总数的长度
+        this.offset =this.Books.length // 维护偏移量的便宜，就是总数的长度
       }
      },
     async remove(id){
