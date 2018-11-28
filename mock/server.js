@@ -1,8 +1,7 @@
 'use strict'
-let http = require('http')
+let http = require('http')  
 let fs = require('fs')
 let url = require('url')
-
 let sliders = require('./slider')
   // 读取文件
 function read(cb) {

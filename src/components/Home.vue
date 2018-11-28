@@ -6,6 +6,7 @@
       <div class="center-block">
         <h3>热门图书</h3>
         <ul>
+          {{hotBooks}}
           <li v-for="hot in hotBooks">
             <img :src="hot.bookimg" alt="">
             <b>{{hot.bookname}}</b>

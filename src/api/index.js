@@ -1,7 +1,7 @@
 import axios from 'axios'
-axios.defaults.baseURL = 'http://localhost:3000/'
+axios.defaults.baseURL = 'http://localhost:3009/'
 // 增加默认的请求路径
-// axios.interceptors.request.use((res)=>{
+// axios.interceptors.response.use((res)=>{
 //     // 在这里统一拦截结果，把结果处理成res.data
 //     return res.data;
 //   }, function (error) {
